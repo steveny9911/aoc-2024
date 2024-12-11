@@ -1,0 +1,49 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:dprint@*": "0.47.6"
+  },
+  "npm": {
+    "@dprint/darwin-arm64@0.47.6": {
+      "integrity": "sha512-DrtKVOH7Ue6QYsqsUfUwBlTkSZNF2j35xqyI6KimUT1ulgUPocLG53JC/Aej9KuSCPmt4M3J40xxPKRgIM4jPA=="
+    },
+    "@dprint/darwin-x64@0.47.6": {
+      "integrity": "sha512-p16a4lMbAo4RngbNTAmtREnIRI/cOcZFy5wHPIzbCDnnHI+4UyHiAypTrpF8U8EYx1tw3hgih2MyAuupa9Gfag=="
+    },
+    "@dprint/linux-arm64-glibc@0.47.6": {
+      "integrity": "sha512-WHphnk0oXpNzwJ9cjbddOL+hEZkXTvHxcA2pM1h1kWCBa5m+4qh0fg8YCktckMfHx1qdQuZYWRoT4l7yQbzWYA=="
+    },
+    "@dprint/linux-arm64-musl@0.47.6": {
+      "integrity": "sha512-/2cSPudajg8J0U69ldNZkJx5QiKZNh+ohNVM9leWZ8v6GXN6sJDHX3T6hzS3ohIb03YOCiLOrJZDy9j3+fSgdQ=="
+    },
+    "@dprint/linux-riscv64-glibc@0.47.6": {
+      "integrity": "sha512-RMHJ3Zuzpls426upHlAveVwlGMi8oBLzhiCauyC/yWQl3CkGTAYdyhEpGnux0+RxacysfIL2bd8ourx4K0Sx3w=="
+    },
+    "@dprint/linux-x64-glibc@0.47.6": {
+      "integrity": "sha512-4zbVsx/a8lHkRyAjfW0PNlN5IMwOJfFapgXNYJowWNO7X3j3m1jYJWovjmdZls+d6pDeOHoanMWtq95wd7zTeQ=="
+    },
+    "@dprint/linux-x64-musl@0.47.6": {
+      "integrity": "sha512-0C13t4OVzomgQjvUyD5IrRyjLDhGuOtqMo00uJlwn3QHucfgOBqkjyQ5fq7T6+grBse0m14/EWblvSbYkZpyDw=="
+    },
+    "@dprint/win32-arm64@0.47.6": {
+      "integrity": "sha512-UOkeFMBdGIuGNwfkrJdVM9eNiRMdbZRRGVy0Cdo2AXn/FCDVqZ74KJkvYVcoUE27GCytHi4Sp1s4at7659WCOw=="
+    },
+    "@dprint/win32-x64@0.47.6": {
+      "integrity": "sha512-i9xwXR8V8Jk/wU1gsYKx15eb0ypBRbRZFkHsnHfC0ZBimcfEOibGnGcfv+UCUcumXtnV46TnBqaJW7H70J1J+A=="
+    },
+    "dprint@0.47.6": {
+      "integrity": "sha512-vCQC+IMHVZbISA5pxEj+yshQbozmQoVFA4lzcLlqJ8rzIAH8U+1DKvesN/2Uv3Bqz6rMW6W4WY7pYJQljmiZ8w==",
+      "dependencies": [
+        "@dprint/darwin-arm64",
+        "@dprint/darwin-x64",
+        "@dprint/linux-arm64-glibc",
+        "@dprint/linux-arm64-musl",
+        "@dprint/linux-riscv64-glibc",
+        "@dprint/linux-x64-glibc",
+        "@dprint/linux-x64-musl",
+        "@dprint/win32-arm64",
+        "@dprint/win32-x64"
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "typescript": {
+    "bracePosition": "nextLine",
+    "nextControlFlowPosition": "nextLine"
+  },
+  "plugins": [
+    "https://plugins.dprint.dev/typescript-0.93.3.wasm"
+  ]
+}

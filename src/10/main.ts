@@ -109,5 +109,4 @@ for (let row = 0; row < MAX_ROW; row++)
   }
 }
 
-
 console.log("Part 2", result);

@@ -35,12 +35,6 @@ enum Direction
   LEFT = 3,
   RIGHT = 4,
 }
-const directions = {
-  "UP": [1, 0],
-  "DOWN": [-1, 0],
-  "LEFT": [0, -1],
-  "RIGHT": [0, 1],
-};
 
 const visited: Set<string> = new Set();
 let row = start[0];
